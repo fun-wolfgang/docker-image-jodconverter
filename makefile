@@ -1,6 +1,6 @@
 build:
 	docker build --target jodconverter-base . -t efun/jodconverter-cjk:base
-	docker build --target gui . -t efun/jodconverter-cjk:gui
+	#docker build --target gui . -t efun/jodconverter-cjk:gui
 	docker build --target rest . -t efun/jodconverter-cjk:rest
 
 #push:
